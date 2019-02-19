@@ -5,9 +5,10 @@ $(document).ready(function() {
     var activity = $("input:radio[name=activity]:checked").val();
     var romance = $("input:radio[name=romance]:checked").val();
 
-    if (gender === 'male' && active === 'very' && activity === 'sports' && romantic === 'romantic') {
+    if (gender === 'male' && active === 'very' && activity === 'sports' && romance === 'romantic') {
+      $("#JohnCena").show()
     }
-    $("#JohnCena").show()
+
 
     event.preventDefault();
 
